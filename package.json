@@ -1,6 +1,28 @@
+
 {
   "dependencies": {
     "@google-cloud/pubsub": "^4.2.0",
+    "body-parser": "^1.20.2",
     "express": "^4.18.2"
-  }
+  },
+  "name": "task-a",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack –mode production",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephaneMM/task-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephaneMM/task-a/issues"
+  },
+  "homepage": "https://github.com/StephaneMM/task-a#readme"
 }
+
